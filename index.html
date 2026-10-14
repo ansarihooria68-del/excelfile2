@@ -1,0 +1,265 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Excel Master | Complete Excel Course</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <a href="#home" class="logo">Excel<span>Master</span></a>
+  <button class="menu-btn" onclick="toggleMenu()">☰</button>
+  <nav id="navLinks">
+    <a href="#home">Home</a>
+    <a href="#basic">Normal Excel</a>
+    <a href="#advanced">Advanced Excel</a>
+    <a href="#formulas">Formulas</a>
+    <a href="#shortcuts">Shortcuts</a>
+    <a href="#practice">Practice</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div>
+    <span class="tag">COMPLETE EXCEL COURSE</span>
+    <h1>Master Microsoft Excel <span>Step by Step</span></h1>
+    <p>Excel bilkul zero se seekhein. Easy English, Roman Urdu, pictures, examples aur practical office work ke saath.</p>
+    <a class="btn" href="#basic">Start Learning →</a>
+  </div>
+  <div class="hero-visual">
+    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1000&q=85" alt="Spreadsheet and data analysis">
+    <div class="floating-label">📊 Learn • Practice • Improve</div>
+  </div>
+</section>
+
+<section class="section" id="basic">
+  <span class="tag">LEVEL 01 • BEGINNER</span>
+  <h2>🌱 Normal Excel (Basic)</h2>
+  <p class="muted">Agar aapko Excel bilkul nahi aata, to yahan se start karein.</p>
+
+  <div class="course-grid">
+    <article class="course-card">
+      <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80" alt="Office work">
+      <div class="card-content">
+        <span class="level basic">BASIC LESSON 01</span>
+        <h3>Introduction to Excel</h3>
+        <p>Excel ek spreadsheet program hai. Is mein data, calculations, attendance aur reports banate hain.</p>
+        <button class="text-btn" onclick="showLesson('intro')">Learn with Example →</button>
+      </div>
+    </article>
+
+    <article class="course-card">
+      <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" alt="Data and charts">
+      <div class="card-content">
+        <span class="level basic">BASIC LESSON 02</span>
+        <h3>Rows, Columns & Cells</h3>
+        <p>Excel ki worksheet mein rows, columns aur cells ko samjhein.</p>
+        <button class="text-btn" onclick="showLesson('cells')">Learn with Example →</button>
+      </div>
+    </article>
+
+    <article class="course-card">
+      <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80" alt="Learning on laptop">
+      <div class="card-content">
+        <span class="level basic">BASIC LESSON 03</span>
+        <h3>Data Entry & Formatting</h3>
+        <p>Names, dates aur numbers likhna; bold, borders, colors aur table formatting seekhein.</p>
+        <button class="text-btn" onclick="showLesson('format')">Learn with Example →</button>
+      </div>
+    </article>
+
+    <article class="course-card">
+      <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80" alt="Computer workstation">
+      <div class="card-content">
+        <span class="level basic">BASIC LESSON 04</span>
+        <h3>Basic Formulas</h3>
+        <p>SUM, AVERAGE, MIN, MAX aur COUNT ke examples ke saath practice karein.</p>
+        <button class="text-btn" onclick="showLesson('basicformulas')">Learn with Example →</button>
+      </div>
+    </article>
+  </div>
+
+  <div class="more-topics">
+    <h3>Normal Excel mein aur kya seekhein?</h3>
+    <div class="topic-chips">
+      <span>Workbook & Worksheet</span><span>Copy / Paste</span>
+      <span>AutoFill</span><span>Sort & Filter</span>
+      <span>Page Layout</span><span>Print & Save</span>
+      <span>Freeze Panes</span><span>Basic Charts</span>
+    </div>
+  </div>
+</section>
+
+<section class="section advanced-section" id="advanced">
+  <span class="tag">LEVEL 02 • PROFESSIONAL</span>
+  <h2>🚀 Advanced Excel</h2>
+  <p class="muted">Normal Excel ke baad complex formulas, reports aur office data handle karna seekhein.</p>
+
+  <div class="course-grid">
+    <article class="course-card">
+      <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" alt="Advanced data analysis">
+      <div class="card-content">
+        <span class="level advanced">ADVANCED LESSON 01</span>
+        <h3>Logical Formulas</h3>
+        <p>IF, AND, OR aur IFERROR se conditions aur automatic results banayein.</p>
+        <button class="text-btn" onclick="showLesson('logical')">Learn with Example →</button>
+      </div>
+    </article>
+
+    <article class="course-card">
+      <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" alt="Data lookup and reporting">
+      <div class="card-content">
+        <span class="level advanced">ADVANCED LESSON 02</span>
+        <h3>Lookup Formulas</h3>
+        <p>VLOOKUP, XLOOKUP, INDEX aur MATCH se data search karna seekhein.</p>
+        <button class="text-btn" onclick="showLesson('lookup')">Learn with Example →</button>
+      </div>
+    </article>
+
+    <article class="course-card">
+      <img src="https://images.unsplash.com/photo-1543286386-713bdd548da4?auto=format&fit=crop&w=800&q=80" alt="Charts and business reports">
+      <div class="card-content">
+        <span class="level advanced">ADVANCED LESSON 03</span>
+        <h3>Pivot Tables & Charts</h3>
+        <p>Bohat saare records ka summary aur reports banana seekhein.</p>
+        <button class="text-btn" onclick="showLesson('pivot')">Learn with Example →</button>
+      </div>
+    </article>
+
+    <article class="course-card">
+      <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" alt="Dashboard data">
+      <div class="card-content">
+        <span class="level advanced">ADVANCED LESSON 04</span>
+        <h3>Dashboards & Power Query</h3>
+        <p>Charts, filters aur data-cleaning tools se professional reports banayein.</p>
+        <button class="text-btn" onclick="showLesson('dashboard')">Learn with Example →</button>
+      </div>
+    </article>
+  </div>
+
+  <div class="more-topics">
+    <h3>Advanced Excel Topics</h3>
+    <div class="topic-chips">
+      <span>SUMIFS</span><span>COUNTIFS</span><span>Nested IF</span>
+      <span>Conditional Formatting</span><span>Data Validation</span>
+      <span>Drop-down Lists</span><span>Pivot Tables</span>
+      <span>Charts & Dashboards</span><span>Power Query</span>
+    </div>
+  </div>
+</section>
+
+<section class="section lesson-area" id="lessonArea">
+  <span class="tag">VISUAL LESSON</span>
+  <h2 id="lessonTitle">Learn with Pictures</h2>
+  <div class="lesson-layout">
+    <img id="lessonImage" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1000&q=85" alt="Excel lesson illustration">
+    <div class="lesson-explanation">
+      <span id="lessonLevel" class="level basic">BASIC</span>
+      <h3 id="lessonHeading">Excel Introduction</h3>
+      <p id="lessonText">Excel mein hum data ko rows aur columns mein arrange karte hain.</p>
+      <div class="example-box">
+        <h4>📝 Example</h4>
+        <p id="lessonExample">A1 mein Name aur B1 mein Marks likhein.</p>
+      </div>
+      <div class="example-box">
+        <h4>✅ Step by Step</h4>
+        <ol id="lessonSteps">
+          <li>Excel open karein.</li>
+          <li>Blank Workbook choose karein.</li>
+          <li>Cell mein data likhein.</li>
+        </ol>
+      </div>
+      <p id="lessonTip" class="tip"></p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="formulas">
+  <span class="tag">FORMULA LIBRARY</span>
+  <h2>Excel Formulas with Examples</h2>
+  <p class="muted">Normal ya Advanced formula search karein.</p>
+
+  <div class="filter-row">
+    <input id="formulaSearch" type="search" placeholder="Search formula, e.g. SUM, XLOOKUP">
+    <select id="formulaLevel">
+      <option value="all">All Levels</option>
+      <option value="basic">Normal / Basic</option>
+      <option value="advanced">Advanced</option>
+    </select>
+  </div>
+  <div id="formulaList" class="formula-grid"></div>
+</section>
+
+<section class="section" id="shortcuts">
+  <span class="tag">WORK SMARTER</span>
+  <h2>Important Shortcut Keys</h2>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>Level</th><th>Shortcut</th><th>Work</th><th>Roman Urdu</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Basic</td><td><kbd>Ctrl + C</kbd></td><td>Copy</td><td>Data copy karein</td></tr>
+        <tr><td>Basic</td><td><kbd>Ctrl + V</kbd></td><td>Paste</td><td>Data paste karein</td></tr>
+        <tr><td>Basic</td><td><kbd>Ctrl + X</kbd></td><td>Cut</td><td>Data cut karein</td></tr>
+        <tr><td>Basic</td><td><kbd>Ctrl + Z</kbd></td><td>Undo</td><td>Pichla action wapas karein</td></tr>
+        <tr><td>Basic</td><td><kbd>Ctrl + S</kbd></td><td>Save</td><td>File save karein</td></tr>
+        <tr><td>Basic</td><td><kbd>Ctrl + F</kbd></td><td>Find</td><td>Data search karein</td></tr>
+        <tr><td>Basic</td><td><kbd>Ctrl + B</kbd></td><td>Bold</td><td>Text bold karein</td></tr>
+        <tr><td>Basic</td><td><kbd>Ctrl + P</kbd></td><td>Print</td><td>Print window kholein</td></tr>
+        <tr><td>Basic</td><td><kbd>Ctrl + 1</kbd></td><td>Format Cells</td><td>Formatting options kholein</td></tr>
+        <tr><td>Basic</td><td><kbd>Alt + =</kbd></td><td>AutoSum</td><td>Numbers ka sum lagayein</td></tr>
+        <tr><td>Advanced</td><td><kbd>Ctrl + Shift + L</kbd></td><td>Filter toggle</td><td>Filter on/off karein</td></tr>
+        <tr><td>Advanced</td><td><kbd>Ctrl + Arrow</kbd></td><td>Move to data edge</td><td>Data ke end tak jayein</td></tr>
+        <tr><td>Advanced</td><td><kbd>Ctrl + Shift + Arrow</kbd></td><td>Select data range</td><td>Data range select karein</td></tr>
+        <tr><td>Advanced</td><td><kbd>F4</kbd></td><td>Repeat / reference toggle</td><td>Context ke mutabiq repeat ya reference change</td></tr>
+        <tr><td>Advanced</td><td><kbd>Ctrl + T</kbd></td><td>Create Table</td><td>Data ko Excel Table banayein</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="section practice-section" id="practice">
+  <span class="tag">OFFICE PRACTICE</span>
+  <h2>Try It Yourself</h2>
+  <p>Yeh sample marks sheet hai. Total aur average ka result khud calculate karne ki koshish karein.</p>
+
+  <div class="mini-sheet">
+    <div class="sheet-row sheet-head"><b>Student</b><b>English</b><b>Maths</b><b>Total</b></div>
+    <div class="sheet-row"><span>Ali</span><span>70</span><span>80</span><span>?</span></div>
+    <div class="sheet-row"><span>Sara</span><span>90</span><span>85</span><span>?</span></div>
+    <div class="sheet-row"><span>Ahmed</span><span>60</span><span>75</span><span>?</span></div>
+  </div>
+
+  <div class="practice-controls">
+    <button class="btn" onclick="showPractice('total')">Show Total Formula</button>
+    <button class="btn secondary-btn" onclick="showPractice('average')">Show Average Formula</button>
+  </div>
+  <div id="practiceResult" class="example-box" aria-live="polite">
+    <h4>Your Task</h4>
+    <p>Excel mein total ke liye =SUM(B2:C2) use kar sakte hain.</p>
+  </div>
+
+  <div class="quiz-box">
+    <h3>Quick Quiz</h3>
+    <p>Numbers ka total nikalne ke liye kaunsa formula use hota hai?</p>
+    <label><input type="radio" name="quiz" value="a"> =COUNT()</label>
+    <label><input type="radio" name="quiz" value="b"> =SUM()</label>
+    <label><input type="radio" name="quiz" value="c"> =LEFT()</label>
+    <button class="btn" onclick="checkQuiz()">Check Answer</button>
+    <p id="quizResult" aria-live="polite"></p>
+  </div>
+</section>
+
+<footer>
+  <h2>Excel<span>Master</span></h2>
+  <p>Normal se Advanced Excel tak — learn, practice and grow.</p>
+  <p class="muted">Educational website. Excel features may vary by version.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
